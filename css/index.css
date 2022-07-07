@@ -1,0 +1,124 @@
+.black-bold {
+    background-color: black;
+    border-radius: 15px;
+    padding: 10% 0;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 991.20px) {
+    .black-bold {
+        background-color: rgb(51, 51, 51);
+        margin-top: 7px;
+        width: 150px;
+    }
+}
+
+.grey-bold {
+    background-color: rgb(226, 225, 225);
+    border-radius: 15px;
+    padding: 10% 0;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 991.20px) {
+    .grey-bold {
+        background-color: transparent;
+    }
+}
+
+.img-hm30 {
+    height: 30px;
+}
+
+.main-rect {
+    background: rgba(255, 0, 0, 0.6) url("./../rsc/logo.png") no-repeat center;
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    color: white;
+}
+
+.rect{
+    width: 100%;
+    text-align: center;
+    font-size: 8vh;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main-rect b {
+    font-weight: 700;
+}
+
+.main-cont {
+    display: flex;
+}
+
+.tienda{ 
+    width: 100%;
+    padding: 5vw 15vw 0vw 15vw;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    width: 5%; 
+    margin: 3vh;
+}
+
+@media only screen and (max-width: 1131px) {
+    .foot{
+        width: 90%; 
+        margin: 3vh;
+    }
+}
+
+.foot a{
+    padding: 1vh;
+    color: rgb(248, 145, 145);
+    font-size: 2vh;
+    text-align: center;
+}
+
+.foot a:hover{
+    color: black;
+}
+
+.btn-bold{
+    background-color: rgba(255, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 10% 0;
+    margin-left: 5px;
+    border: 3px;
+    border-color: black;
+    text-decoration: none;
+    margin-bottom: 5vh;
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    width: 22%; 
+    margin: 3vh;
+}
+
+@media only screen and (max-width: 991.20px) {
+    .card{
+        width: 90%; 
+        margin: 3vh;
+    }
+}
+
